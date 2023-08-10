@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
-
     <Button
         android:id="@+id/signup"
         android:layout_width="wrap_content"
