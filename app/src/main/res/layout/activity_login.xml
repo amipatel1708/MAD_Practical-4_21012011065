@@ -31,52 +31,51 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email_Id:"
-                android:textSize="20sp"
+                android:text="Email Id"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextEmailAddress"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="  Password:"
-                android:textSize="20sp"
+                android:text="Password"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPassword"
-                app:layout_constraintEnd_toEndOf="@+id/textView2"
+
                 app:layout_constraintStart_toStartOf="parent" />
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress"
-                android:layout_width="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textEmailAddress"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/textView2"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
                 android:id="@+id/editTextTextPassword"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_weight="0.5"
                 android:ems="10"
                 android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.419"
-                app:layout_constraintStart_toEndOf="@+id/textView3"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_marginTop="50dp"
                 android:text="Forgot Password?"
                 android:textSize="18sp"
@@ -110,11 +109,11 @@
         android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:background="#00ffffff"
         android:text="SIGN UP"
-        android:textColor="#ff1493"
-        android:textSize="20sp"
+        android:textColor="#F01D7F"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="@+id/textView8"
